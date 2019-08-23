@@ -13,15 +13,16 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"
+        android:textSize="20sp"
         android:onClick="lancarDados"
         android:text="Lançar Dados"/>
 
     <TextView
         android:layout_marginTop="16dp"
         android:id="@+id/resultado"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Resultado do lançamento"
         android:textAlignment="center"/>
 
 
